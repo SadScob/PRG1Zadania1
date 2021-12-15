@@ -13,6 +13,7 @@ bool is_even(int a) {
 
 int main() {
     int a;
+    cout << "Enter the number: \t";
     cin >> a;
     cout << is_even(a) << endl;
     return 0;
